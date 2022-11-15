@@ -259,7 +259,7 @@ button:hover {
     font-size: 50px;
     display: block;
     text-align: center;
-    margin: 25px 0px;
+    margin: 15px 0px;
     color: rgb(144, 215, 218);
 }
 
@@ -324,7 +324,7 @@ h5 {
     background-color: rgb(144, 215, 218);
     width: 100%;
     padding: 100px 0px;
-    height: 65vh;
+    height: 70vh;
 }
 
 .internet .title h2 {
