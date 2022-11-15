@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EDI Website</title>
+    <link rel="stylesheet" type="text/css" href="project1.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--hero section start-->
+    <div id="home" class="hero">
+        <nav>
+            <h2 class="logo">EDI<span> Website</span></h2>
+            <ul>
+                <li>
+                    <a href="#home">
+                        <button type="button" href="#home">home</button>
+                    </a>
+                </li>
+                <li>
+                    <a href="#author">
+                        <button type="button">author</button>
+                    </a>
+                </li>
+                <li>
+                    <a href="#internet">
+                        <button type="button" href="#internet">internet</button>
+                    </a>
+                </li>
+                <li>
+                    <a href="#data">
+                        <button type="button" href="#data">data</button>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="content">
+            <h4><span>hello world!</span> my name is</h4>
+            <h1>Tomasz Rajda</h1>
+            <h3>computer science student</h3>
+        </div>
+    </div>
+
+    <!--about me section start-->
+    <section id="author" class="author">
+        <div class="main">
+            <img src="img/main-img.png">
+            <div class="author-text">
+                <h2>author</h2>
+                <h5><span>about</span> me</h5>
+                <p>I am a student of the University of Economics in Cracow in the field 
+                    of Applied Computer Science at the Faculty of Management. 
+                    I have always been interested in new technologies, which is 
+                    undoubtedly related to the field of study I am a student 
+                    of. I hope that these studies will bring me closer to my 
+                    dream profession, which is a software developer. I am also 
+                    this year's (February 2022) graduate of the AGH University 
+                    of Science and Technology of Cracow, majoring in Civil 
+                    Engineering, but I do not associate my professional future 
+                    with this major.
+                    I have several passions and hobbies. One of my passions is 
+                    sport, especially football, Poland national. I am also interested in cooking, 
+                    specifically in baking Neapolitan pizza. Recently, I am 
+                    also interested in geopolitics and the history of the 20th 
+                    century.</p>
+                    <button type="button" onclick="location.href='https://www.linkedin.com/in/tomasz-rajda/'">LinkedIn</button>
+            </div>
+        </div>
+    </section>
+
+    <!--internet section start-->
+    <div id="internet" class="internet">
+        <div class="title">
+            <h2>internet</h2>
+            <p>Below you can search for some relevant information via<span> Yahoo!</span></p>
+        </div>
+        <div class="box">
+            <form action="https://search.yahoo.com/search">
+                <input type="text" name="q" value="" placeholder="let's Yahoo some funny cats!">
+                <input type="submit" name="" value="search">
+            </form>
+        </div>
+        <div class="main">
+            <img src="img/cat1.png">
+        </div>
+    </div>
+
+    <!--data1 section start-->
+    <div id="data" class="data1">
+        <div class="title">
+            <h2>data formats</h2>
+        </div>
+
+        <div class="box">
+            <div class="card1">
+                <i class="fas fa-bars"></i>
+                <h5>.XML</h5>
+                <div class="pra1">
+                    <p>Extensible Markup Language (XML) is a simple text-based 
+                        format for representing structured info: documents, 
+                        data, books, trans, invoices, and much more.</p>
+
+                    <p style="text-align: center;">
+                        <a class="button" href="data/dataset.xml">Check it out!</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card2">
+                <i class="fas fa-bars"></i>
+                <h5>.CSV</h5>
+                <div class="pra2">
+                    <p>Comma-separated values (CSV) is a delimited text file 
+                        format that uses a comma to separate values. CSV files 
+                        can be opened by any spreadsheet program</p>
+
+                    <p style="text-align: center;">
+                        <a class="button" href="data/dataset.csv">Check it out!</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card3">
+                <i class="fas fa-bars"></i>
+                <h5>.JSON</h5>
+                <div class="pra3">
+                    <p>JavaScript Object Notation (JSON) is an file that uses 
+                        human-readable text to store and transmit data objects 
+                        consisting of attribute–value pairs and arrays.</p>
+
+                    <p style="text-align: center;">
+                        <a class="button" href="data/dataset.json">Check it out!</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    <!--data2 section start-->
+    <section class="data">
+        <div class="main">
+            <table class="content-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>App name</th>
+                        <th>User avatar</th>
+                        <th>User nickname</th>
+                        <th>User country</th>
+                        <th>User city</th>
+                        <th>User sign up date</th>
+                        <th>User week activity</th>
+                        <th>User money spent</th>
+                        <th>User usage hours</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Bigtax</td>
+                        <td><img src="https://robohash.org/nameumdoloribus.png?size=50x50&set=set1" alt="User avatar" style="width:25px;height:25px;"></td>
+                        <td>lwogden0</td>
+                        <td>Peru</td>
+                        <td>Yunga</td>
+                        <td>08.03.2021</td>
+                        <td>TRUE</td>
+                        <td>9294,73 PLN</td>
+                        <td>809</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Redhold</td>
+                        <td><img src="https://robohash.org/dolordoloremnostrum.png?size=50x50&set=set1" alt="User avatar" style="width:25px;height:25px;"></td>
+                        <td>awhitfeld1</td>
+                        <td>China</td>
+                        <td>Pingdong</td>
+                        <td>25.11.2007</td>
+                        <td>FALSE</td>
+                        <td>5474,75 PLN</td>
+                        <td>2000</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Latlux</td>
+                        <td><img src="https://robohash.org/doloremdolorin.png?size=50x50&set=set1" alt="User avatar" style="width:25px;height:25px;"></td>
+                        <td>vwistance2</td>
+                        <td>Peru</td>
+                        <td>Castrovirreyna</td>
+                        <td>23.11.2008</td>
+                        <td>TRUE</td>
+                        <td>8219,27 PLN</td>
+                        <td>1689</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Quo Lux</td>
+                        <td><img src="https://robohash.org/impeditsedaspernatur.png?size=50x50&set=set1" alt="User avatar" style="width:25px;height:25px;"></td>
+                        <td>bnials3</td>
+                        <td>China</td>
+                        <td>Hutang</td>
+                        <td>07.03.2012</td>
+                        <td>TRUE</td>
+                        <td>828,65 PLN</td>
+                        <td>1429</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Matsoft</td>
+                        <td><img src="https://robohash.org/nonsuscipitfugiat.png?size=50x50&set=set1" alt="User avatar" style="width:25px;height:25px;"></td>
+                        <td>plinster4</td>
+                        <td>Nigeria</td>
+                        <td>Uga</td>
+                        <td>15.06.2014</td>
+                        <td>FALSE</td>
+                        <td>90,24 PLN</td>
+                        <td>1703</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Tempsoft</td>
+                        <td><img src="https://robohash.org/minimafugiataliquid.png?size=50x50&set=set1" alt="User avatar" style="width:25px;height:25px;"></td>
+                        <td>bfedynski5</td>
+                        <td>Russia</td>
+                        <td>Svetlyy</td>
+                        <td>11.03.2022</td>
+                        <td>FALSE</td>
+                        <td>6085,28 PLN</td>
+                        <td>1811</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Y-Solowarm</td>
+                        <td><img src="https://robohash.org/inventoreiurequia.png?size=50x50&set=set1" alt="User avatar" style="width:25px;height:25px;"></td>
+                        <td>emitham6</td>
+                        <td>Indonesia</td>
+                        <td>Wates</td>
+                        <td>29.12.2015</td>
+                        <td>FALSE</td>
+                        <td>0767,71 PLN</td>
+                        <td>1741</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Matsoft</td>
+                        <td><img src="https://robohash.org/autemenimqui.png?size=50x50&set=set1" alt="User avatar" style="width:25px;height:25px;"></td>
+                        <td>llindblad7</td>
+                        <td>Chad</td>
+                        <td>Babototo</td>
+                        <td>04.08.2015</td>
+                        <td>FALSE</td>
+                        <td>0,29 PLN</td>
+                        <td>1158</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>Lotstring</td>
+                        <td><img src="https://robohash.org/sequietipsum.png?size=50x50&set=set1" alt="User avatar" style="width:25px;height:25px;"></td>
+                        <td>rroll8</td>
+                        <td>Brazil</td>
+                        <td>Lages</td>
+                        <td>11.03.2022</td>
+                        <td>FALSE</td>
+                        <td>2,84 PLN</td>
+                        <td>1770</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>Flowdesk</td>
+                        <td><img src="https://robohash.org/remrationeaccusamus.png?size=50x50&set=set1" alt="User avatar" style="width:25px;height:25px;"></td>
+                        <td>cllywarch9</td>
+                        <td>Czech Republic</td>
+                        <td>Loucna na Desnou</td>
+                        <td>15.12.2012</td>
+                        <td>TRUE</td>
+                        <td>5053,09 PLN</td>
+                        <td>1716</td>
+                    </tr>
+                </tbody>
+            <div class="data-text">
+                <h2>data<span> & structure</span></h2>
+                <p>The data presented relates to various applications and their 
+                    users. The data shows for example the user's nickname, the 
+                    country of origin, the date the account was set up in the 
+                    application, the amount of money the user spent on using the 
+                    application, data also show whether the user was active in the 
+                    last week (Boolean type).
+                </p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
